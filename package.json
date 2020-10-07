@@ -4,7 +4,7 @@
   "description": "An authorization library that supports access control models like ACL, RBAC, ABAC in Node.JS",
   "main": "lib/cjs/index.js",
   "typings": "lib/cjs/index.d.ts",
-  "module": "lib/esm/index.js",
+  "module": "lib/cjs/index.js",
   "scripts": {
     "prepack": "run-s lint test build",
     "postpack": "run-s clean",
