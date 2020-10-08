@@ -6,6 +6,7 @@
   "typings": "lib/cjs/index.d.ts",
   "module": "lib/cjs/index.js",
   "scripts": {
+    "postpack": "tsc -p tsconfig.cjs.json",
     "build": "tsc -p tsconfig.cjs.json",
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:esm": "tsc -p tsconfig.esm.json",
